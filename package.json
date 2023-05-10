@@ -20,7 +20,7 @@
     "lint": "eslint . --fix --ext .ts,tsx"
   },
   "dependencies": {
-    "@solidjs/meta": "0.28.4",
+    "@solidjs/meta": "0.28.5",
     "@solidjs/router": "0.8.2",
     "@suid/icons-material": "0.6.1",
     "@suid/material": "0.12.1",
