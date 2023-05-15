@@ -1450,17 +1450,34 @@
     "@suid/utils" "0.7.1"
     clsx "^1.2.1"
 
+"@suid/base@0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@suid/base/-/base-0.8.2.tgz#54f81b74971a4e4e9c6bbabdc54aa6f7e4d0d8db"
+  integrity sha512-saue6/ss0ylDMz2mOK6kKvxBqkt5wCNTOutsQ6oi+zeeKXp+0SRpfhqmhhBWZw9s00eq+qE17G4ln2yvZ7d9ug==
+  dependencies:
+    "@popperjs/core" "^2.11.7"
+    "@suid/css" "0.3.1"
+    "@suid/system" "0.10.2"
+    "@suid/types" "0.5.1"
+    "@suid/utils" "0.7.2"
+    clsx "^1.2.1"
+
 "@suid/css@0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@suid/css/-/css-0.3.0.tgz#62a2d08754dca9fd509698853fea994ebdb4ce2c"
   integrity sha512-B7eXNEqGWTF9rd8VNZItaVjUvJ4e34DjGZqMaBBSu4UxqJwYJ0J0NTQEVRzCtHmjHaqEuMc9llYCT7cmamhA8g==
 
-"@suid/icons-material@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@suid/icons-material/-/icons-material-0.6.1.tgz#44615a26b614f688d05f9f32f68702628545e992"
-  integrity sha512-JtXRjqFrfCJyRIf9OJG1RtdtKgzNm8bRfnoSAV0IeX/ilf4U0QzFrU4+xY5tYssRrhnOm2+jPCETzh2/ac7JEA==
+"@suid/css@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@suid/css/-/css-0.3.1.tgz#f81bb4c50c72f42b2b3d2433cfae5cbc7f85325b"
+  integrity sha512-OXUgCwKvMy6rIu+tcRybKxFzCBbwaEXG30MmCV26uzwhTxYcmSXU4tdiTenpAD7w1VS0Xysw0pf+tGtzKIMX8g==
+
+"@suid/icons-material@0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@suid/icons-material/-/icons-material-0.6.2.tgz#9006853ecb1dcd78a6e9fd3f526e69ed7ccf91e0"
+  integrity sha512-zptoa2Zz5w3qQQ/jHwInXYkuRRAph1g1ULIE4YMMn21tZ5oxHVYH4S8pcG39jU/CXLm6VC+u73nvgCiMhm7aMA==
   dependencies:
-    "@suid/material" "0.12.1"
+    "@suid/material" "0.12.2"
 
 "@suid/material@0.12.1":
   version "0.12.1"
@@ -1474,6 +1491,18 @@
     "@suid/utils" "0.7.1"
     clsx "^1.2.1"
 
+"@suid/material@0.12.2":
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/@suid/material/-/material-0.12.2.tgz#dd74454febb798803fcb4440470bb42c2f806d30"
+  integrity sha512-PSTwnsSur09Ap3JRQcHKHsprWCXV4wbk+P/KqGcWetytRMs5RYnD6bBZYcI0U2y7pVYg8qI7onZmQ5Y119hIKw==
+  dependencies:
+    "@suid/base" "0.8.2"
+    "@suid/css" "0.3.1"
+    "@suid/system" "0.10.2"
+    "@suid/types" "0.5.1"
+    "@suid/utils" "0.7.2"
+    clsx "^1.2.1"
+
 "@suid/styled-engine@0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@suid/styled-engine/-/styled-engine-0.5.1.tgz#96b4450984df5727c5f83cc8a9d185ba519884f7"
@@ -1481,6 +1510,14 @@
   dependencies:
     "@suid/css" "0.3.0"
     "@suid/utils" "0.7.1"
+
+"@suid/styled-engine@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@suid/styled-engine/-/styled-engine-0.5.2.tgz#e9622d26e2a52a5083678c915d40759b7343056f"
+  integrity sha512-PVUrs3K0iaXNy2wwiFr9MSGv4Kkvq0HPI6kFdHTwY44u0zZiTqBeZe9dTmmTjfxmiJj0AofzUqU7+HqasDALvw==
+  dependencies:
+    "@suid/css" "0.3.1"
+    "@suid/utils" "0.7.2"
 
 "@suid/system@0.10.1":
   version "0.10.1"
@@ -1494,10 +1531,27 @@
     clsx "^1.2.1"
     csstype "^3.1.2"
 
+"@suid/system@0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@suid/system/-/system-0.10.2.tgz#67a61c5f6131213c5e91cdb73769e48b68c34590"
+  integrity sha512-af7LJDS6Z7EM1x9FludSQDjATxsxtC6sYwpYrjuH+bIkArAKkHYNGc2dDl9SCJ1fOeEIiIKMiWbPnMQ1Pobznw==
+  dependencies:
+    "@suid/css" "0.3.1"
+    "@suid/styled-engine" "0.5.2"
+    "@suid/types" "0.5.1"
+    "@suid/utils" "0.7.2"
+    clsx "^1.2.1"
+    csstype "^3.1.2"
+
 "@suid/types@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@suid/types/-/types-0.5.0.tgz#9afe89c24f01abfcb83c6e6f5d33b7293ff22556"
   integrity sha512-49m3JAO+TX4afqWbV+KdLv3RIgNECFnRkH0mba/z5v7MtNUhBoa6z4lHR0TvOzaCZYznb75TbPiYVRTQG6MYWA==
+
+"@suid/types@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@suid/types/-/types-0.5.1.tgz#8536cd694343a1e30d84c408bddca6685035ac91"
+  integrity sha512-5Cg/n5Z6veyMdkVXlK32xX+uBawaVeLbnqRhJl/zU5uSWuC5hP7g08Rm3FJ7pH48nvDMlwx7CsIDUWRnGYczag==
 
 "@suid/utils@0.7.1":
   version "0.7.1"
@@ -1505,6 +1559,13 @@
   integrity sha512-QenZDimYt3bqm+4077X9qOzaBU9p/gYTbHUxc5397stv+EV1k1+9635/T1lit0PCj7P0AljmuBPCmB2WkEoeYw==
   dependencies:
     "@suid/types" "0.5.0"
+
+"@suid/utils@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@suid/utils/-/utils-0.7.2.tgz#3588cda33ecbfa636c77743d65c7e97d9afff365"
+  integrity sha512-NVOYWEGFnY2TaVuY/5F+HxtTE4G6HYfag1+/XMEkyYrZlTjrubDQ2GnWW0NIcKnreO0Fq+vxineBWA76HVNHcw==
+  dependencies:
+    "@suid/types" "0.5.1"
 
 "@suid/vite-plugin@0.1.4":
   version "0.1.4"
