@@ -1,0 +1,5 @@
+{
+  "dependencyDashboard": true,
+  "extends": ["config:base"],
+  "rangeStrategy": "pin"
+}
