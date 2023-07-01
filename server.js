@@ -15422,7 +15422,7 @@ var manifest = {
 	"index.html": [
 	{
 		type: "script",
-		href: "/assets/index-2c71d220.js"
+		href: "/assets/index-3b328e93.js"
 	},
 	{
 		type: "style",
