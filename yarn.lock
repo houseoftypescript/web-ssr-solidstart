@@ -2034,7 +2034,7 @@ define-lazy-prop@^2.0.0:
   resolved "https://registry.yarnpkg.com/define-lazy-prop/-/define-lazy-prop-2.0.0.tgz#3f7ae421129bcaaac9bc74905c98a0009ec9ee7f"
   integrity sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==
 
-defu@^6.1.0:
+defu@^6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.2.tgz#1217cba167410a1765ba93893c6dbac9ed9d9e5c"
   integrity sha512-+uO4+qr7msjNNWKYPHqN/3+Dx3NFkmIzayk2L1MyZQlvgZb/J1A0fo410dpKrN2SnqFjt8n4JL8fDJE0wIgjFQ==
@@ -3304,12 +3304,12 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-solid-apexcharts@0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/solid-apexcharts/-/solid-apexcharts-0.2.4.tgz#c6a78796b71abfb0d06ad2a81f2dab58afe620d4"
-  integrity sha512-8SJ48UrCSZOE2HzF9a3LKbUccnHxhCCTDgIMciWUPdIBxW7GpalRh/HcJapa4Lc6khP1scKhS3M7iKc+uUU7yg==
+solid-apexcharts@0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/solid-apexcharts/-/solid-apexcharts-0.3.2.tgz#586057f3ddb3b06d3db147d0f9074b61f5912952"
+  integrity sha512-4U80dk2e/YEghD903aitBrO0l5WjUv/IhRI6Pp8mfJNT6JPkYG4HTMjBrI+XHRU8uJICJl9ZwLtkvFZnKd2Shw==
   dependencies:
-    defu "^6.1.0"
+    defu "^6.1.2"
 
 solid-js@1.7.7:
   version "1.7.7"
