@@ -1297,24 +1297,12 @@
   resolved "https://registry.yarnpkg.com/@suid/css/-/css-0.3.1.tgz#f81bb4c50c72f42b2b3d2433cfae5cbc7f85325b"
   integrity sha512-OXUgCwKvMy6rIu+tcRybKxFzCBbwaEXG30MmCV26uzwhTxYcmSXU4tdiTenpAD7w1VS0Xysw0pf+tGtzKIMX8g==
 
-"@suid/icons-material@0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@suid/icons-material/-/icons-material-0.6.2.tgz#9006853ecb1dcd78a6e9fd3f526e69ed7ccf91e0"
-  integrity sha512-zptoa2Zz5w3qQQ/jHwInXYkuRRAph1g1ULIE4YMMn21tZ5oxHVYH4S8pcG39jU/CXLm6VC+u73nvgCiMhm7aMA==
+"@suid/icons-material@0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@suid/icons-material/-/icons-material-0.6.3.tgz#e2b929492901970e6a27d057253e43c349dd87c4"
+  integrity sha512-FunY1jtCdXpBr9hL0CCvJB+dthyYumjqvpj+w/Oln/qfxOsWnjH/QFsqEYaCVJSyFWhchSdBJXCGEsb/fEsFRw==
   dependencies:
-    "@suid/material" "0.12.2"
-
-"@suid/material@0.12.2":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@suid/material/-/material-0.12.2.tgz#dd74454febb798803fcb4440470bb42c2f806d30"
-  integrity sha512-PSTwnsSur09Ap3JRQcHKHsprWCXV4wbk+P/KqGcWetytRMs5RYnD6bBZYcI0U2y7pVYg8qI7onZmQ5Y119hIKw==
-  dependencies:
-    "@suid/base" "0.8.2"
-    "@suid/css" "0.3.1"
-    "@suid/system" "0.10.2"
-    "@suid/types" "0.5.1"
-    "@suid/utils" "0.7.2"
-    clsx "^1.2.1"
+    "@suid/material" "0.12.3"
 
 "@suid/material@0.12.3":
   version "0.12.3"
