@@ -1316,6 +1316,18 @@
     "@suid/utils" "0.7.2"
     clsx "^1.2.1"
 
+"@suid/material@0.12.3":
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@suid/material/-/material-0.12.3.tgz#8a678c8edb553fccd8c361477cda3277233bbf6c"
+  integrity sha512-Kcq+HNO6U0rBLfhHRHwsKSQckDqN6Z5qguQWBCn11VlgOWrurG+0ZJVVYi47nTt71w2eb4eyQBneveEO4EdeYQ==
+  dependencies:
+    "@suid/base" "0.8.2"
+    "@suid/css" "0.3.1"
+    "@suid/system" "0.10.2"
+    "@suid/types" "0.5.1"
+    "@suid/utils" "0.7.2"
+    clsx "^1.2.1"
+
 "@suid/styled-engine@0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@suid/styled-engine/-/styled-engine-0.5.2.tgz#e9622d26e2a52a5083678c915d40759b7343056f"
