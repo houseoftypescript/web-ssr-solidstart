@@ -24,7 +24,7 @@
     "@solidjs/router": "0.8.2",
     "@suid/icons-material": "0.6.3",
     "@suid/material": "0.12.3",
-    "apexcharts": "3.40.0",
+    "apexcharts": "3.41.0",
     "solid-apexcharts": "0.2.4",
     "solid-js": "1.7.7",
     "solid-start": "0.2.26",
