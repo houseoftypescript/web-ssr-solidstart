@@ -22,7 +22,7 @@
   "dependencies": {
     "@solidjs/meta": "0.28.5",
     "@solidjs/router": "0.8.2",
-    "@suid/icons-material": "0.6.3",
+    "@suid/icons-material": "0.6.5",
     "@suid/material": "0.12.3",
     "apexcharts": "3.41.0",
     "solid-apexcharts": "0.3.2",
