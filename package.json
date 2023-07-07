@@ -10,7 +10,7 @@
   "private": true,
   "engines": {
     "node": "20.4.0",
-    "npm": "9.7.2",
+    "npm": "9.8.0",
     "yarn": "1.22.19"
   },
   "scripts": {
