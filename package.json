@@ -26,7 +26,7 @@
     "@suid/material": "0.13.1",
     "apexcharts": "3.41.0",
     "solid-apexcharts": "0.3.2",
-    "solid-js": "1.7.7",
+    "solid-js": "1.7.8",
     "solid-start": "0.2.26",
     "undici": "5.22.1"
   },
